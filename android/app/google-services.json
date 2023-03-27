@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "308953353635",
+    "project_id": "monkeymobile-edc50",
+    "storage_bucket": "monkeymobile-edc50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308953353635:android:183bb7c08b150b9c981e16",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308953353635-q3h8vgo8r3bl0e5k5alqsir1bcd6icd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGsNrWh3Kb4jclCPKmeTbZWMoRcFi4e68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308953353635-q3h8vgo8r3bl0e5k5alqsir1bcd6icd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
