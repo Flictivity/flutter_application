@@ -19,16 +19,20 @@ class _EditDealState extends State<EditDeal> {
   TextEditingController titleController = TextEditingController();
   TextEditingController descriptionController = TextEditingController();
   TextEditingController imageController = TextEditingController();
+  
+  @override
+  void dispose()
+  {
+    super.dispose(); 
+    titleController.dispose();
+    descriptionController.dispose();
+    imageController.dispose();
+  } 
+
   @override
   Widget build(BuildContext context) {
     bool imageTwest() {
-      bool image = false;
-      if (widget.deal.image == null) {
-        image = true;
-      } else {
-        image = false;
-      }
-      return image;
+      return widget.deal.image == null ? true : false;
     }
 
     if (widget.deal != null &&
